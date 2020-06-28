@@ -1,0 +1,306 @@
+
+/* This is, as the name suggests, the main stylesheet for the module 2 assignment. 
+    Now, the reason I'm writing this comment on the is because I want the this file to be easily understood.
+    The document is pretty long but this comment should help you go through it pretty quickly.
+
+    Starting with the explanation:
+        I'm using the Monsterrat font for this page. The font is NOT included with the repository but rather has been embeded via Google fonts. (check line:17 in the index.html).
+        
+        Body: Specifying the font family in the body helps a lot since now I don't have specify ith everytime what font-family I'll be using for different elements.
+
+        Heading: The heading element has a class as well as an id selector. This is to stop redundancy, as if I ever need to add more heading(s), I can just refer the class but still 
+                fine-tune the settings as per the requirements.
+
+        Row: The Row class is the parent element of the all the Cards. It takes up all the width available in the screen and has horizontal margin in percentage. This has been done to 
+            done to avoid any weird margin issues when the page is viewed in different resolutions.
+
+        Cards: This is the class of every card specifying their width [redundant], height and botom margin. the Bottom Margin is there to avoid the elements sticking to each other when 
+            the screen resized.
+
+        TitleSection: This is the class for the section in the top-right section of the Cards.It specifies the constraints of the section and color. These float to right, because they 
+            are required to. Border radius is set in a way so that top right and bottom left edges of the section only have curved radius.
+
+        TitleSectionText: This is the class for the text in the TitleSection. It specifies the constraints of the text.
+
+        cardContent: This is the class for the all the card other than the TitleSection. 
+
+        non-veg, veg, egg: Specific Contraints / properties for the 3 different cards that I have. THE CARDS DO HAVE BORDERS. But the color of the cards isn't much different from the 
+                        because the borders didn't look good with the borders of the any color with the design I going to use.
+
+        non-vegTitle, vegTitle, eggTitle:  Specific Contraints / properties for the title sections of the 3 different cards that I have.
+
+    Rest of the code is for Responsive Design, containing width speicifications of different types of devices as per the 12 column grid layout. 
+Happy Reviewing!
+*/
+
+
+/* Default styles.*/
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fefefe;
+    overflow: hidden;
+}
+
+.heading {
+    text-align: center;
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 72px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.row{
+    width: 100%;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+
+.cards {
+    width: 320px;
+    height: 240px;
+    margin-bottom: 5%;
+}
+
+
+.titlesection {
+    float: right;
+    width: 108px;
+    height: 54px;
+    background: #fefefe;
+    border-radius: 0px 5px;
+}
+
+.titlesectiontext {
+    padding: 16px 0px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    align-items: center;
+    text-align: center;
+}
+
+.cardContent {
+    width: 80%;
+    height: 110px;
+    margin: 88px 33px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #fefefe;
+}
+
+#non-veg {
+    background: #F54747;
+    border: 3px solid #FF0000;
+    border-radius: 5px;
+}
+
+#non-vegTitle {
+    color: #EE5A5A;
+}
+
+#egg {
+    background: #EC7017;
+    border: 3px solid #FF5B00;
+    border-radius: 5px;
+    margin: 0% 0% 5% 0%; 
+}
+
+#eggTitle {
+    color: #EC7017;
+}
+
+#veg {
+    background: #139F53;
+    border: 3px solid #1BA019;
+    border-radius: 5px;
+}
+
+#vegTitle {
+    color: #139F53;
+}
+
+
+/* This is the responsive style for devices having resolutions (width) larger than 992px or basically for large devices  */
+
+@media (min-width: 992px) {
+    .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+        float: left;
+      }
+
+      .col-lg-1 {
+        width: 8.33%;
+      }
+      .col-lg-2 {
+        width: 16.66%;
+      }
+      .col-lg-3 {
+        width: 25%;
+      }
+      .col-lg-4 {
+        width: 33.33%;
+      }
+      .col-lg-5 {
+        width: 41.66%;
+      }
+      .col-lg-6 {
+        width: 50%;
+      }
+      .col-lg-7 {
+        width: 58.33%;
+      }
+      .col-lg-8 {
+        width: 66.66%;
+      }
+      .col-lg-9 {
+        width: 74.99%;
+      }
+      .col-lg-10 {
+        width: 83.33%;
+      }
+      .col-lg-11 {
+        width: 91.66%;
+      }
+      .col-lg-12 {
+        width: 100%;
+      }
+
+      /* For Minor Changes with the change in Resolution */
+      .row{
+        width: 100%;
+        margin-top: 125px;
+        }
+
+      #egg {    
+        margin: 0px 5%; 
+        } 
+    
+}
+
+
+/* This is the responsive style for devices having resolutions (width) larger than 767px but less than 992px or basically for medium-sized devices  */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+        float: left;
+      }
+      .col-md-1 {
+        width: 8.33%;
+      }
+      .col-md-2 {
+        width: 16.66%;
+      }
+      .col-md-3 {
+        width: 25%;
+      }
+      .col-md-4 {
+        width: 33.33%;
+      }
+      .col-md-5 {
+        width: 41.66%;
+      }
+      .col-md-6 {
+        width: 50%;
+      }
+      .col-md-7 {
+        width: 58.33%;
+      }
+      .col-md-8 {
+        width: 66.66%;
+      }
+      .col-md-9 {
+        width: 74.99%;
+      }
+      .col-md-10 {
+        width: 83.33%;
+      }
+      .col-md-11 {
+        width: 91.66%;
+      }
+      .col-md-12 {
+        width: 100%;
+      }
+
+      /* For Minor Changes with the change in Resolution */
+      .row{
+        margin-top: 75px; 
+        }
+
+      #egg{
+          margin: 0% 2.0%;
+        }
+
+      #veg{
+          width: 85%;
+        }
+}
+
+
+/* This is the responsive style for devices having resolutions (width) less than 767px or basically for smol-sized devices  */
+
+@media (max-width: 767px) {
+    .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+        float: left;
+      }
+      .col-sm-1 {
+        width: 8.33%;
+      }
+      .col-sm-2 {
+        width: 16.66%;
+      }
+      .col-sm-3 {
+        width: 25%;
+      }
+      .col-sm-4 {
+        width: 33.33%;
+      }
+      .col-sm-5 {
+        width: 41.66%;
+      }
+      .col-sm-6 {
+        width: 50%;
+      }
+      .col-sm-7 {
+        width: 58.33%;
+      }
+      .col-sm-8 {
+        width: 66.66%;
+      }
+      .col-sm-9 {
+        width: 74.99%;
+      }
+      .col-sm-10 {
+        width: 83.33%;
+      }
+      .col-sm-11 {
+        width: 91.66%;
+      }
+      .col-sm-12 {
+        width: 100%;
+      }
+        
+      /* For Minor Changes with the change in Resolution */
+      .row{
+        margin-top: 50px;
+        }
+
+}
+
+/* Thank you for reviewing my code.*/
