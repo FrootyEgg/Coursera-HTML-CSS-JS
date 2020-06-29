@@ -24,8 +24,7 @@
 
         cardContent: This is the class for the all the card other than the TitleSection. 
 
-        non-veg, veg, egg: Specific Contraints / properties for the 3 different cards that I have. THE CARDS DO HAVE BORDERS. But the color of the cards isn't much different from the 
-                        because the borders didn't look good with the borders of the any color with the design I going to use.
+        non-veg, veg, egg: Specific Contraints / properties for the 3 different cards that I have. 
 
         non-vegTitle, vegTitle, eggTitle:  Specific Contraints / properties for the title sections of the 3 different cards that I have.
 
@@ -39,25 +38,25 @@ Happy Reviewing!
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
-}
+  }
 
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: #fefefe;
     overflow: hidden;
-}
+  }
 
 .heading {
     text-align: center;
     font-weight: 500;
-}
+  }
 
 h1 {
     margin-top: 100px;
     font-size: 72px;
     font-weight: 500;
     color: #000000;
-}
+  }
 
 .row{
     width: 100%;
@@ -65,14 +64,16 @@ h1 {
     margin-right: 7.5%;
     margin-top: 50px;
     margin-bottom: 0px;
-}
+  }
 
 
 .cards {
     width: 320px;
     height: 240px;
     margin-bottom: 5%;
-}
+    border: 1px solid #000000;
+    border-radius: 5px;
+  }
 
 
 .titlesection {
@@ -81,7 +82,7 @@ h1 {
     height: 54px;
     background: #fefefe;
     border-radius: 0px 5px;
-}
+  }
 
 .titlesectiontext {
     padding: 16px 0px;
@@ -91,7 +92,7 @@ h1 {
     line-height: 22px;
     align-items: center;
     text-align: center;
-}
+  }
 
 .cardContent {
     width: 80%;
@@ -105,38 +106,32 @@ h1 {
     align-items: center;
     text-align: center;
     color: #fefefe;
-}
+  }
 
 #non-veg {
     background: #F54747;
-    border: 3px solid #FF0000;
-    border-radius: 5px;
-}
+  }
 
 #non-vegTitle {
     color: #EE5A5A;
-}
+  }
 
 #egg {
     background: #EC7017;
-    border: 3px solid #FF5B00;
-    border-radius: 5px;
     margin: 0% 0% 5% 0%; 
-}
+  }
 
 #eggTitle {
     color: #EC7017;
-}
+  }
 
 #veg {
     background: #139F53;
-    border: 3px solid #1BA019;
-    border-radius: 5px;
-}
+  }
 
 #vegTitle {
     color: #139F53;
-}
+  }
 
 
 /* This is the responsive style for devices having resolutions (width) larger than 992px or basically for large devices  */
