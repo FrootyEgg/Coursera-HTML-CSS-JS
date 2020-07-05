@@ -9,3 +9,11 @@ The following list contains the problem statement and the solution of the Assign
    - [Problem Statement](https://github.com/jhu-ep-coursera/fullstack-course4/blob/master/assignments/assignment2/Assignment-2.md)
    - [Page](https://frootyegg.github.io/Coursera-HTML-CSS-JS/module2Soln/)
    - [Design - Figma](https://www.figma.com/file/Q7bg9f63fzKHQHbo7QpLti/Coursera-HTML-CSS-JS-COURSE?node-id=0%3A1)
+  
+  ### 1. Module3
+   - [Problem Statement](https://github.com/jhu-ep-coursera/fullstack-course4/blob/master/assignments/assignment3/Assignment-3.md)
+   - [Page](https://frootyegg.github.io/Coursera-HTML-CSS-JS/module3Soln/)
+   - [Design - Figma](https://www.figma.com/file/Q7bg9f63fzKHQHbo7QpLti/Coursera--HTML-CSS-JS-COURSE?node-id=47%3A2)
+   - [Optional] - Coming soon!
+   
+   
