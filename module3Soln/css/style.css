@@ -224,4 +224,10 @@ h1 {
     }
   }
 
+/* This is just some styling for the more options link at the bottom of the page not related to the Assignment in any way.*/
+#moreOptions {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
 /* Thank you for reviewing my code.*/
