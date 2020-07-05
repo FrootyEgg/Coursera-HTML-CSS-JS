@@ -1,0 +1,215 @@
+<!--
+    Welcome!
+    This is the code for Module 3 Assignment of Coursera course HTML, CSS, and Javascript for Web Developers taught by Yaakov Chaikin.
+    The following code is based on the design I made (which was based on the mockups given by the instructor)
+    on Figma which is available at https://www.figma.com/file/Q7bg9f63fzKHQHbo7QpLti/Coursera-HTML-CSS-JS-COURSE?node-id=0%3A1 .
+    NOTE: FIGMA IS A DESIGN TOOL NOT A CSS FRRAMEWORK IN ITSELF. IT JUST HELPED WITH DECIDING WHAT MY PAGE SHOULD / WOULD LOOK LIKE ONCE
+         I HAVE MADE IT IN THE EDITOR.
+
+    Now, most of the comments below in this file is boilerplate HTML Code that was inserted by VSCode [extensive] by itself.
+
+    Happy Reviewing!
+-->
+
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html>
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Module 2 Assignment</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- Monsterrat Font. Google Fonts Embed-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Montez Font. Google Fonts Embed-->
+    <link href="https://fonts.googleapis.com/css2?family=Montez&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <header>
+        <nav id="header-nav" class="navbar navbar-default">
+            <div class="container" id="navigation-bar">
+                <div class="navbar-header">
+                    <a href="index.html" class="pull-left visible-md visible-lg d-inline-block align-top">
+                        <div id="logo-img"> </div>
+                    </a>
+                    <div class="navbar-brand">
+                        <a href="index.html">
+                            <h1>FOOD LLC</h1>
+                        </a>
+                    </div>
+
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#collapsable-nav" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+
+                <div id="collapsable-nav" class="collapse navbar-collapse">
+                    <ul id="nav-list" class="nav navbar-nav visible-xs">
+                        <li><a href="#non-veg" class="text-center nav-list-item">Non-Veg</a></li>
+                        <li><a href="#egg" class="text-center nav-list-item">Egg</a></li>
+                        <li><a href="#veg" class="text-center nav-list-item">Veg</a></li>
+                    </ul>
+                </div><!-- .collapse .navbar-collapse -->
+            </div><!-- .container -->
+        </nav><!-- #header-nav -->
+    </header><!-- #header -->
+
+    <section class="heading">
+        <div>
+            <h1>Our Menu</h1>
+        </div>
+
+    </section>
+
+    <div class="container-fluid flex-container">
+        <div class="cards col-md-11 col-sm-11 " id="non-veg">
+            <div class="titlesection">
+                <div class="titlesectiontext " id="non-vegTitle">Non-veg</div>
+            </div>
+            <p class="cardContent text-center" id="non-vegContent">Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit. Nunc non
+                sollicitudin id tempor purus volutpat dui f
+                elis. Placerat in amet, nibh quis ultricies. Aliquam rutrum arcu nec porta. Nec lobortis nunc sed
+                feugiat tortor, eu ornare. Varius sed lacinia sit
+                elit neque. Velit nunc fermentum, elementum cursus vulputate vel tellus. Ut cras justo, sit accumsan,
+                erat aliquam congue ac risus. Mattis netus odio
+                nibh suspendisse euismod. Nunc aliquam ut purus consequat magna eget eget. Adipiscing sapien ultrices
+                dolor, volutpat natoque enim tortor gravida. Nisi
+                sit turpis congue diam risus egestas lectus. Lacus vulputate congue diam mi in et, id metus porta. Arcu
+                tortor ac euismod viverra non in at diam. Nibh
+                tempus mauris in sem maecenas..
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non
+                sollicitudin id tempor purus volutpat dui f
+                elis. Placerat in amet, nibh quis ultricies. Aliquam rutrum arcu nec porta. Nec lobortis nunc sed
+                feugiat tortor, eu ornare. Varius sed lacinia sit
+                elit neque. Velit nunc fermentum, elementum cursus vulputate vel tellus. Ut cras justo, sit accumsan,
+                erat aliquam congue ac risus. Mattis netus odio
+                nibh suspendisse euismod. Nunc aliquam ut purus consequat magna eget eget. Adipiscing sapien ultrices
+                dolor, volutpat natoque enim tortor gravida. Nisi
+                sit turpis congue diam risus egestas lectus. Lacus vulputate congue diam mi in et, id metus porta. Arcu
+                tortor ac euismod viverra non in at diam. Nibh
+                tempus mauris in sem maecenas.. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non
+                sollicitudin id tempor purus volutpat dui f
+                elis. Placerat in amet, nibh quis ultricies. Aliquam rutrum arcu nec porta. Nec lobortis nunc sed
+                feugiat tortor, eu ornare. Varius sed lacinia sit
+                elit neque. Velit nunc fermentum, elementum cursus vulputate vel tellus. Ut cras justo, sit accumsan,
+                erat aliquam congue ac risus. Mattis netus odio
+                nibh suspendisse euismod. Nunc aliquam ut purus consequat magna eget eget. Adipiscing sapien ultrices
+                dolor, volutpat natoque enim tortor gravida. Nisi
+                sit turpis congue diam risus egestas lectus. Lacus vulputate congue diam mi in et, id metus porta. Arcu
+                tortor ac euismod viverra non in at diam. Nibh
+                tempus mauris in sem maecenas..
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non
+                sollicitudin id tempor purus volutpat dui f
+                elis. Placerat in amet, nibh quis ultricies. Aliquam rutrum arcu nec porta. Nec lobortis nunc sed
+                feugiat tortor, eu ornare. Varius sed lacinia sit
+                elit neque. Velit nunc fermentum, elementum cursus vulputate vel tellus. Ut cras justo, sit accumsan,
+                erat aliquam congue ac risus. Mattis netus odio
+                nibh suspendisse euismod. Nunc aliquam ut purus consequat magna eget eget. Adipiscing sapien ultrices
+                dolor, volutpat natoque enim tortor gravida. Nisi
+                sit turpis congue diam risus egestas lectus. Lacus vulputate congue diam mi in et, id metus porta. Arcu
+                tortor ac euismod viverra non in at diam. Nibh
+                tempus mauris in sem maecenas..
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non
+                sollicitudin id tempor purus volutpat dui f
+                elis. Placerat in amet, nibh quis ultricies. Aliquam rutrum arcu nec porta. Nec lobortis nunc sed
+                feugiat tortor, eu ornare. Varius sed lacinia sit
+                elit neque. Velit nunc fermentum, elementum cursus vulputate vel tellus. Ut cras justo, sit accumsan,
+                erat aliquam congue ac risus. Mattis netus odio
+                nibh suspendisse euismod. Nunc aliquam ut purus consequat magna eget eget. Adipiscing sapien ultrices
+                dolor, volutpat natoque enim tortor gravida. Nisi
+                sit turpis congue diam risus egestas lectus. Lacus vulputate congue diam mi in et, id metus porta. Arcu
+                tortor ac euismod viverra non in at diam. Nibh
+                tempus mauris in sem maecenas..
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non
+                sollicitudin id tempor purus volutpat dui f
+                elis. Placerat in amet, nibh quis ultricies. Aliquam rutrum arcu nec porta. Nec lobortis nunc sed
+                feugiat tortor, eu ornare. Varius sed lacinia sit
+                elit neque. Velit nunc fermentum, elementum cursus vulputate vel tellus. Ut cras justo, sit accumsan,
+                erat aliquam congue ac risus. Mattis netus odio
+                nibh suspendisse euismod. Nunc aliquam ut purus consequat magna eget eget. Adipiscing sapien ultrices
+                dolor, volutpat natoque enim tortor gravida. Nisi
+                sit turpis congue diam risus egestas lectus. Lacus vulputate congue diam mi in et, id metus porta. Arcu
+                tortor ac euismod viverra non in at diam. Nibh
+                tempus mauris in sem maecenas.. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non
+                sollicitudin id tempor purus volutpat dui f
+                elis. Placerat in amet, nibh quis ultricies. Aliquam rutrum arcu nec porta. Nec lobortis nunc sed
+                feugiat tortor, eu ornare. Varius sed lacinia sit
+                elit neque. Velit nunc fermentum, elementum cursus vulputate vel tellus. Ut cras justo, sit accumsan,
+                erat aliquam congue ac risus. Mattis netus odio
+                nibh suspendisse euismod. Nunc aliquam ut purus consequat magna eget eget. Adipiscing sapien ultrices
+                dolor, volutpat natoque enim tortor gravida. Nisi
+                sit turpis congue diam risus egestas lectus. Lacus vulputate congue diam mi in et, id metus porta. Arcu
+                tortor ac euismod viverra non in at diam. Nibh
+                tempus mauris in sem maecenas..
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non
+                sollicitudin id tempor purus volutpat dui f
+                elis. Placerat in amet, nibh quis ultricies. Aliquam rutrum arcu nec porta. Nec lobortis nunc sed
+                feugiat tortor, eu ornare. Varius sed lacinia sit
+                elit neque. Velit nunc fermentum, elementum cursus vulputate vel tellus. Ut cras justo, sit accumsan,
+                erat aliquam congue ac risus. Mattis netus odio
+                nibh suspendisse euismod. Nunc aliquam ut purus consequat magna eget eget. Adipiscing sapien ultrices
+                dolor, volutpat natoque enim tortor gravida. Nisi
+                sit turpis congue diam risus egestas lectus. Lacus vulputate congue diam mi in et, id metus porta. Arcu
+                tortor ac euismod viverra non in at diam. Nibh
+                tempus mauris in sem maecenas..
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non
+                sollicitudin id tempor purus volutpat dui f
+                elis. Placerat in amet, nibh quis ultricies. Aliquam rutrum arcu nec porta. Nec lobortis nunc sed
+                feugiat tortor, eu ornare. Varius sed lacinia sit
+                elit neque. Velit nunc fermentum, elementum cursus vulputate vel tellus. Ut cras justo, sit accumsan,
+                erat aliquam congue ac risus. Mattis netus odio
+                nibh suspendisse euismod. Nunc aliquam ut purus consequat magna eget eget. Adipiscing sapien ultrices
+                dolor, volutpat natoque enim tortor gravida. Nisi
+                sit turpis congue diam risus egestas lectus. Lacus vulputate congue diam mi in et, id metus porta. Arcu
+                tortor ac euismod viverra non in at diam. Nibh
+                tempus mauris in sem maecenas..
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non
+                sollicitudin id tempor purus volutpat dui f
+                elis. Placerat in amet, nibh quis ultricies. Aliquam rutrum arcu nec porta. Nec lobortis nunc sed
+                feugiat tortor, eu ornare. Varius sed lacinia sit
+                elit neque. Velit nunc fermentum, elementum cursus vulputate vel tellus. Ut cras justo, sit accumsan,
+                erat aliquam congue ac risus. Mattis netus odio
+                nibh suspendisse euismod. Nunc aliquam ut purus consequat magna eget eget. Adipiscing sapien ultrices
+                dolor, volutpat natoque enim tortor gravida. Nisi
+                sit turpis congue diam risus egestas lectus. Lacus vulputate congue diam mi in et, id metus porta. Arcu
+                tortor ac euismod viverra non in at diam. Nibh
+                tempus mauris in sem maecenas..
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non
+                sollicitudin id tempor purus volutpat dui f
+                elis. Placerat in amet, nibh quis ultricies. Aliquam rutrum arcu nec porta. Nec lobortis nunc sed
+                feugiat tortor, eu ornare. Varius sed lacinia sit
+                elit neque. Velit nunc fermentum, elementum cursus vulputate vel tellus. Ut cras justo, sit accumsan,
+                erat aliquam congue ac risus. Mattis netus odio
+                nibh suspendisse euismod. Nunc aliquam ut purus consequat magna eget eget. Adipiscing sapien ultrices
+                dolor, volutpat natoque enim tortor gravida. Nisi
+                sit turpis congue diam risus egestas lectus. Lacus vulputate congue diam mi in et, id metus porta. Arcu
+                tortor ac euismod viverra non in at diam. Nibh
+                tempus mauris in sem maecenas..</p>
+        </div>
+    </div>
+    <!-- jQuery (Bootstrap JS plugins depend on it) -->
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
