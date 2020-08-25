@@ -17,7 +17,7 @@ The following list contains the problem statement and the solution of the Assign
    - [Optional] - Coming soon!
 
   ### 3. Module4
-   - [Problem Statement](https://github.com/jhu-ep-coursera/fullstack-course4/blob/master/assignments/assignment3/Assignment-4.md)
+   - [Problem Statement](https://github.com/jhu-ep-coursera/fullstack-course4/blob/master/assignments/assignment4/Assignment-4.md)
    - [Page](https://frootyegg.github.io/Coursera-HTML-CSS-JS/module4Sol%20-%20Hard/)
    - [Design - N/A]
    - Hard
