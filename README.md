@@ -15,5 +15,10 @@ The following list contains the problem statement and the solution of the Assign
    - [Page](https://frootyegg.github.io/Coursera-HTML-CSS-JS/module3Soln/)
    - [Design - Figma](https://www.figma.com/file/Q7bg9f63fzKHQHbo7QpLti/Coursera--HTML-CSS-JS-COURSE?node-id=47%3A2)
    - [Optional] - Coming soon!
-   
+
+  ### 3. Module4
+   - [Problem Statement](https://github.com/jhu-ep-coursera/fullstack-course4/blob/master/assignments/assignment3/Assignment-4.md)
+   - [Page](https://frootyegg.github.io/Coursera-HTML-CSS-JS/module4Sol%20-%20Hard/)
+   - [Design - N/A]
+   - Hard
    
